@@ -32,6 +32,7 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 
 
 LOGIC-GATES: 
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/598eb676-fc4f-4543-a08b-60624c2c1419)
 
                             
@@ -50,10 +51,12 @@ xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
 OUTPUT:       
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/0bf7de7a-e772-4f1b-a1ac-76278dc145a5)
 
 
 HALF ADDER: 
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/1efa0cef-9db7-441b-aad9-4accd714defe)
 
 
@@ -77,11 +80,13 @@ endmodule
 
 
 OUTPUT:
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/7c204f4f-e3dd-4060-bdff-93e019fd3ba2)
 
 
  
-HALFSUBTRACTOR: 
+HALFSUBTRACTOR:
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/c21b7c8d-c134-4467-b903-6ccf3c576cf6)
 
 
@@ -98,6 +103,7 @@ endmodule
 
 
 OUTPUT:
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/3937e7e8-af45-468d-b05c-05c37d9d68d8)
 
 
