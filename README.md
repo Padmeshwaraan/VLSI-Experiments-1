@@ -217,7 +217,7 @@ OUTPUT:
 
 RESULT:
 
-        Thus, the logic gates and 4 Bit of Adder and Subtractor are Implemented 
+Thus, the logic gates and 4 Bit of Adder and Subtractor are Implemented 
 and simulated successfully.
 
  
