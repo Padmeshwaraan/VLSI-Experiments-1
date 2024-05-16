@@ -22,7 +22,8 @@ STEP:4 Type the File Name and Click Next and then finish button. Type the code a
 STEP:5 Select the Behavioural Simulation in the Source Window and click the check syntax. 
 
 STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table.
- 
+
+ 
 LOGIC-GATES: 
 
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/598eb676-fc4f-4543-a08b-60624c2c1419)
