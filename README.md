@@ -54,9 +54,11 @@ endmodule
 
 OUTPUT:       
 
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/0bf7de7a-e772-4f1b-a1ac-76278dc145a5)
 
 HALF ADDER: 
+
 
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/1efa0cef-9db7-441b-aad9-4accd714defe)
 
@@ -76,9 +78,11 @@ endmodule
 
 OUTPUT:
 
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/7c204f4f-e3dd-4060-bdff-93e019fd3ba2)
 
 HALFSUBTRACTOR:
+
 
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/c21b7c8d-c134-4467-b903-6ccf3c576cf6)
 
@@ -98,9 +102,11 @@ endmodule
 
 OUTPUT:
 
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/3937e7e8-af45-468d-b05c-05c37d9d68d8)
 
 FULLADDER: 
+
 
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/8020948e-1de8-4d83-8531-52532675485c)
 
@@ -120,9 +126,11 @@ endmodule
 
 OUTPUT:
 
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/9a51b020-a484-4b9b-b016-f93b67b9b303)
 
 FULLSUBTRACTOR: 
+
 
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/c1a5ac2a-235a-47b6-9e5a-5d0487fdb3e0)
 
@@ -142,9 +150,11 @@ endmodule
 
 OUTPUT:
 
+
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/5fda3116-d45e-4562-8083-edac1099f3ce)
 
  8-BIT-RIPPLE-CARRY-ADDER: 
+ 
  
  ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/b90d6719-3f52-437b-a37d-be4a12f989b5)
 
@@ -201,6 +211,7 @@ assign cout=((a&b)|(b&cin)|(a&cin));
 endmodule
 
 OUTPUT: 
+
 
 ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/58adbe5a-8aa9-4862-94f3-3af09e0aef9b)
 
