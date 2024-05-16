@@ -5,9 +5,13 @@ DATE : 06.02.2024
 
  SIMULATION AND IMPLEMENTATION OF LOGIC GATES AND 4 BIT ADDER & SUBTRACTOR 
 
-AIM: To simulate and synthesis Logic Gates, Adders and Subtractor using VIVADO 
+AIM: 
 
-APPARATUS REQUIRED: VIVADO 2023.2 
+   To simulate and synthesis Logic Gates, Adders and Subtractor using VIVADO 
+
+APPARATUS REQUIRED: 
+
+  VIVADO 2023.2 
 
 PROCEDURE: 
 
