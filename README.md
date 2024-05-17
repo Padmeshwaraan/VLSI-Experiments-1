@@ -1,37 +1,43 @@
-                                                                 
- EXP.NO- 1 
+EXP.NO: 1 
 
-DATE : 06.02.2024
+DATE: 13/02/2024
 
- SIMULATION AND IMPLEMENTATION OF LOGIC GATES AND 4 BIT ADDER & SUBTRACTOR 
+SIMULATION AND IMPLEMENTATION OF LOGIC GATES AND 4 BIT ADDER & SUBTRACTOR 
 
-AIM: 
+AIM: To simulate and synthesis Logic Gates, Adders and Subtractor using VIVADO 
 
-   To simulate and synthesis Logic Gates, Adders and Subtractor using VIVADO 
 
-APPARATUS REQUIRED: 
+APPARATUS REQUIRED: VIVADO 2023.2 
 
-  VIVADO 2023.2 
 
 PROCEDURE: 
 
+
 STEP:1 Start the Vivado, Select and Name the New project. 
+
 
 STEP:2 Select the device family, device, package and speed. 
 
+
 STEP:3 Select new source in the New Project and select Verilog Module as the Source type. 
+
 
 STEP:4 Type the File Name and Click Next and then finish button. Type the code and save it. 
 
+
 STEP:5 Select the Behavioural Simulation in the Source Window and click the check syntax. 
 
-STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table.
 
- 
+STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table.
+ 
+
+
 LOGIC-GATES: 
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/598eb676-fc4f-4543-a08b-60624c2c1419)
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/fe825cf3-cf22-45f2-8953-c605426076da)
+
                             
+
 PROGRAM: 
 
 module logic_gates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
@@ -58,13 +64,21 @@ endmodule
 
 OUTPUT:       
 
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/e3bb8a12-f37c-42ac-925f-143296448b83)
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/0bf7de7a-e772-4f1b-a1ac-76278dc145a5)
+ 
+
+
 
 HALF ADDER: 
 
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/dfb9ede6-56e4-4a12-ba58-aafe034023e7)
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/1efa0cef-9db7-441b-aad9-4accd714defe)
+
+
+ 
+
+
 
 PROGRAM: 
 
@@ -80,18 +94,27 @@ assign carry=a&b;
 
 endmodule
 
+
+
+
+
+
 OUTPUT:
 
-
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/7c204f4f-e3dd-4060-bdff-93e019fd3ba2)
-
-HALFSUBTRACTOR:
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/0a21eb1c-1806-4c63-9cb1-5ce8f55a5c23)
 
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/c21b7c8d-c134-4467-b903-6ccf3c576cf6)
+ 
+HALFSUBTRACTOR: 
+
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/dd10a7e4-a9b3-4322-b681-2477af439761)
+
+
+
+ 
+
 
 PROGRAM: 
-
 module hs(a,b,diff,borrow);
 
 input a,b; 
@@ -104,15 +127,23 @@ assign borrow=~a&b;
 
 endmodule
 
+
 OUTPUT:
 
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/4d9d5900-1f2f-411d-9107-040496bbb93c)
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/3937e7e8-af45-468d-b05c-05c37d9d68d8)
+ 
+
+
+
 
 FULLADDER: 
 
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/69627c10-cd9b-4dbe-96bb-e788158a0286)
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/8020948e-1de8-4d83-8531-52532675485c)
+
+ 
+
 
 PROGRAM: 
 
@@ -128,15 +159,31 @@ assign carry=(a&b)|(a&c)|(b&c);
 
 endmodule
 
+
+
 OUTPUT:
 
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/0253e8f4-68f4-41cb-aa0a-e0816101ad99)
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/9a51b020-a484-4b9b-b016-f93b67b9b303)
+
+ 
+
+
+
 
 FULLSUBTRACTOR: 
 
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/e199046a-1577-4844-9f9e-9f2b67d26382)
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/c1a5ac2a-235a-47b6-9e5a-5d0487fdb3e0)
+
+
+
+ 
+
+
+
+
+
 
 PROGRAM: 
 
@@ -152,15 +199,18 @@ assign borrow=(~a&c)|(~a&b)|(b&c);
 
 endmodule
 
+
 OUTPUT:
 
+![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/4377c1ba-9c64-476b-8873-5802eeb492bd)
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/5fda3116-d45e-4562-8083-edac1099f3ce)
 
  8-BIT-RIPPLE-CARRY-ADDER: 
  
+ ![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/7a15fa9f-b3f6-4e67-b577-1df899110d05)
+
+
  
- ![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/b90d6719-3f52-437b-a37d-be4a12f989b5)
 
 PROGRAM: 
 
@@ -214,16 +264,38 @@ assign cout=((a&b)|(b&cin)|(a&cin));
 
 endmodule
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 OUTPUT: 
 
+ ![image](https://github.com/Karthikeyan8296/VLSI-EXP-1/assets/165583967/0268a8d3-2f03-4ce2-b33c-25c5bb932aeb)
 
-![image](https://github.com/Padmeshwaraan/VLSI-Experiments-1/assets/160568747/58adbe5a-8aa9-4862-94f3-3af09e0aef9b)
+
+
+
+
+
+
+
+
+
+
+
 
 RESULT:
-
-Thus, the logic gates and 4 Bit of Adder and Subtractor are Implemented 
+        Thus, the logic gates and 4 Bit of Adder and Subtractor are Implemented 
 and simulated successfully.
-
- 
-
 
